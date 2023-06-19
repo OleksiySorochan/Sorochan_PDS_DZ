@@ -48,10 +48,6 @@ class Node:
 
 
 
-    def insert_list(self, lst):
-        for el in lst:
-            self.insert(el)
-
     # Друк дерева
     def display(self):
         lines, *_ = self._display_aux()
