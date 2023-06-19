@@ -107,9 +107,9 @@ class Node:
         return self.left.find_min()
 
     def find_max(self):
-        if self.right:
+        if not self.right:
             return self.val
-        return self.left.find_min()
+        return self.right.find_max()
 
     # 3 завдання
     # Видалення елементів
@@ -144,7 +144,7 @@ def bild(lst):
     return tree
 ######################################################
 
-tree = [8, 3, 10, 1, 6, None, 14, None, None, 4, 7, None, None, 13, None]
+tree = [8, 3, 10, 1, 6, None, 154, None, None, 4, 7, None, None, 13, None]
 t = bild(tree)
 t.display()
 print(f'min: {t.find_min()}')
