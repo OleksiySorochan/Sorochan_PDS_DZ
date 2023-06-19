@@ -32,8 +32,6 @@ class Node:
 
     # Метод додавання нового елементу
     def insert(self, key):
-        # if self.root is None:
-        #     self.root = Node(key)
         if key < self.val:
             if self.left:
                 self.left.insert(key)
