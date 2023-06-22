@@ -1,0 +1,10 @@
+2023-06-22 19:36:03,870 - server_logger - WARNING - for connect use parametr socket: socket.AF_INET, socket.SOCK_STREAM
+2023-06-22 19:36:03,870 - server_logger - WARNING - for connect use "localhost",  port: 45000
+2023-06-22 19:36:03,870 - server_logger - INFO - server is running
+2023-06-22 19:36:07,296 - server_logger - INFO - data: b'message from client'
+2023-06-22 19:36:07,296 - server_logger - ERROR - exception error 'encodings' is an invalid keyword argument for bytes()
+2023-06-22 19:36:16,909 - server_logger - WARNING - for connect use parametr socket: socket.AF_INET, socket.SOCK_STREAM
+2023-06-22 19:36:16,909 - server_logger - WARNING - for connect use "localhost",  port: 45000
+2023-06-22 19:36:16,910 - server_logger - INFO - server is running
+2023-06-22 19:36:20,158 - server_logger - INFO - data: b'message from client'
+2023-06-22 19:36:20,158 - server_logger - WARNING - use encoding - UTF-8
